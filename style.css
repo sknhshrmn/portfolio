@@ -175,6 +175,7 @@ li {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10%;
 }
 .about-me-wrapper {
   width: 100%;
