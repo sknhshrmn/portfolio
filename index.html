@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/my-picture.jpg" />
+    <title>Sakinah - Software Engineer</title>
+    <!-- External font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Links-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header" id="header">
+      <div class="header-wrapper">
+        <div class="left">
+          <div class="name">Siti Nursakinah Shahriman</div>
+          <div class="hamburger" id="hamburger">
+            <svg
+              class="hamburger-icon"
+              id="hamburger-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+            <svg
+              class="delete-icon"
+              id="delete-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="w-6 h-6"
+              width="1.2rem"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="right" id="right-header">
+          <nav>
+            <a class="nav-item btn-home" href="/index.html">Home</a>
+            <a class="nav-item btn-about" href="/item/about.html">About</a>
+            <a class="nav-item btn-project" href="/item/project.html"
+              >Projects</a
+            >
+            <a class="nav-item btn-skill" href="/item/skill.html"
+              >Skills</a
+            >
+            <!-- <a class="nav-item btn-hobby" href="hobby.html">Hobby</a> -->
+            <a class="nav-item btn-contact" href="/item/contact.html"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero / Greeting Section -->
+    <div class="section-with-hero-image">
+      <section class="hero">
+        <!-- greetings -->
+        <div class="greeting">
+          <p id="hello">Hello</p>
+          <div class="intro">
+            <p>
+              <span>I’m </span>
+              <span id="my-name">Siti Nursakinah Shahriman</span>
+            </p>
+            <p>
+              <span>a </span><span id="my-job">Software Engineer (PLC)</span>
+            </p>
+          </div>
+        </div>
+        <!-- Button: See my resume -->
+        <div class="btn-resume-wrapper">
+          <a
+            class="btn-resume"
+            href="https://sknhshrmn.github.io/sec-2023-day-1/"
+            target="_blank"
+            >See My Resume</a
+          >
+        </div>
+      </section>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-me">
+      <div class="about-me-wrapper">
+        <div class="section-title title-about-me" >About me</div>
+        <div class="slide-contents">
+          <div class="slide-left">
+            <!-- Carousel/Slider -->
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+              data-interval="false"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <!-- Slide-1 - About Me  -->
+                <div class="carousel-item active">
+                  <div class="carousel-header">
+                    <div class="carousel-header-item active-header">
+                      About me
+                    </div>
+                    <div class="carousel-header-item">Work Experience</div>
+                    <div class="carousel-header-item">Education</div>
+                  </div>
+                  <p class="caraousel-about-me">
+                    I am Siti Nursakinah Shahriman, and I am looking for a job
+                    in Software Engineering. I have four years of experience in
+                    related job positions in engineering-related professions.
+                    <br />
+                    <br />
+                    I started working as an R&D Automation Engineer in an
+                    engineering company, gradually moving to a PLC Software
+                    Engineer. I had the chance to learn about web development
+                    while working as a PLC software engineer, and I've recently
+                    grown interested in these areas. In order to master the
+                    fundamentals, I made the decision to enrol in a bootcamp.
+                    <br />
+                    <br />I believe that a person should work on developing
+                    their professional skills and learning new things all the
+                    time. I want to dedicate all my skills and talents to
+                    developing top-notch products. I am capable of working both
+                    independently and on a team, and I am ready for long-term
+                    cooperation.
+                  </p>
+                </div>
+                <!-- Slide 2 - Work Experience  -->
+                <div class="carousel-item">
+                  <div class="carousel-header">
+                    <div class="carousel-header-item">About me</div>
+                    <div class="carousel-header-item active-header">
+                      Work Experience
+                    </div>
+                    <div class="carousel-header-item">Education</div>
+                  </div>
+                  <div class="resume-container">
+                    <div class="resume">
+                      <div class="resume-left">
+                        <p class="resume-title">PLC Software Engineer</p>
+                        <p class="resume-year">2019 – Present</p>
+                      </div>
+                      <div class="resume-right">
+                        <p>Product: Environmental testing chamber</p>
+                        <ul>
+                          <li>
+                            Develop or modify PLC program using Function Block
+                            Diagram (FBD) and C-Language
+                          </li>
+                          <li>Develop or modify codes to upgrade the HMI</li>
+                          <li>
+                            Develop a web app using Django for internal use
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="resume">
+                      <div class="resume-left">
+                        <p class="resume-title">R&D Automation Engineer</p>
+                        <p class="resume-year">2017 – 2018</p>
+                      </div>
+                      <div class="resume-right job-description">
+                        <p>Product: Cleanroom conveyor</p>
+                        <ul>
+                          <li>
+                            Develop 3D concepts for automation systems
+                            consisting of sensors and actuators
+                          </li>
+                          <li>
+                            Prepare technical drawings (2D) using Solidworks
+                          </li>
+                          <li>
+                            Provide installation support during the assembly
+                            process
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide-3 - Education -->
+                <div class="carousel-item">
+                  <div class="carousel-header">
+                    <div class="carousel-header-item">About me</div>
+                    <div class="carousel-header-item">Work Experience</div>
+                    <div class="carousel-header-item active-header">
+                      Education
+                    </div>
+                  </div>
+                  <div class="resume-container">
+                    <div class="resume">
+                      <div class="resume-left">
+                        <p class="resume-title">
+                          Software engineering Conversion bootcamp
+                        </p>
+                        <p class="resume-year">Feb 2023 – Present</p>
+                      </div>
+                      <div class="resume-right">
+                        <p>
+                          Immersive training program with an emphasis on
+                          Fullstack Web Development
+                        </p>
+                      </div>
+                    </div>
+                    <div class="resume">
+                      <div class="resume-left">
+                        <p class="resume-title">
+                          Program Peneraju Teknologi cloud computing
+                        </p>
+                        <p class="resume-year">2021 (3 months)</p>
+                      </div>
+                      <div class="resume-right job-description">
+                        <p>Microsoft Certificate:</p>
+                        <ul>
+                          <li>Azure Fundamentals</li>
+                          <li>
+                            Azure Administrator Associate (Expires Oct 2023)
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="resume">
+                      <div class="resume-left">
+                        <p class="resume-title">B.Eng in Mechatronics</p>
+                        <p class="resume-year">2017</p>
+                      </div>
+                      <div class="resume-right job-description">
+                        <p>
+                          Focused in Robotics and Information/Automation
+                          Technology
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="slide-right">
+            <img src="/assets/my-picture.jpg" alt="my-picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project">
+      <div class="project-container">
+        <div class="section-title">My Projects</div>
+        <div class="project-wrapper">
+          <!-- 1. Color Clock -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a href="https://sknhshrmn.github.io/sec-2023-color-clock/" target="_blank">
+                <img src="/assets/color-clock.png" alt="color-clock-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">Color Clock</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A color clock that represents the current time. The background
+                color changes gradually in response to the passing of
+                seconds.The user may switch the time to the hexadecimal code of
+                the current background color. The project is completed using
+                HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+          <!-- 2. To Do List -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a href="https://sknhshrmn.github.io/sec-2023-day-10/" target="_blank">
+                <img src="/assets/to-do-list.png" alt="to-do-list-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">To-Do List</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A simple to-do list app designed to help users organise and
+                manage their tasks. This app allows users to create a list of
+                tasks and mark them as completed. The users may also edit or
+                delete the tasks. The project is completed using HTML and CSS,
+                and JavaScript.
+              </p>
+            </div>
+          </div>
+          <!-- 3. Calculator -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a
+                href="https://sknhshrmn.github.io/sec-2023-day-9/assignment-2/" target="_blank"
+              >
+                <img src="/assets/calculator.png" alt="calculator-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">Calculator</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A web app that can perform basic arithmetic operations such as
+                addition, subtraction, multiplication, and division. The project
+                is completed using HTML, CSS, and JavaScript to build the
+                graphical user interface (GUI) with buttons and displays.
+              </p>
+            </div>
+          </div>
+          <!-- 4. Keycode Finder -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a
+                href="https://sknhshrmn.github.io/sec-2023-day-9/assignment-1/" target="_blank"
+              >
+                <img
+                  src="/assets/key-code-generator.png"
+                  alt="key-code-generator-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">Keycode Finder</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A keycode finder is a tool that helps users identify the
+                numerical code associated with a particular key on their
+                keyboard. This code is known as the keycode. This keycode finder
+                will display the keycode in real-time as the user presses a key.
+                JavaScript, in addition to HTML and CSS, are used to identify
+                which key is pressed and which keycode to output.
+              </p>
+            </div>
+          </div>
+          <!-- 5. BMI Calculator -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a href="https://sknhshrmn.github.io/sec-2023-day-7/" target="_blank">
+                <img
+                  src="/assets/bmi-calculator.png"
+                  alt="bmi-calculator-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">BMI Calculator</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A small web app that allows users to calculate their BMI (Body
+                Mass Index) based on their height and weight. The user may enter
+                their height and weight, and the app will calculate and display
+                their BMI and the weight status categories (underweight, ideal,
+                overweight, and obese). Some advice is also provided based on
+                the result of the weight status category. This project is
+                completed using HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+          <!-- 6. Django app for data entry -->
+          <div class="project-item">
+            <div class="project-col-1">
+              <a href="#">
+                <img src="/assets/django-project.png" alt="django-project"
+              /></a>
+            </div>
+            <div class="project-col-2">
+              <p class="project-title">Django app for data entry</p>
+            </div>
+            <div class="project-col-3">
+              <p class="project-description">
+                A data management tool that is built using the Django framework
+                with the intention of being used by staffs to input, update, and
+                spantrack information related to their work. It will serve as a
+                central hub for data entry and management in the company.
+                Besides Python, which is needed to use Django, HTML, CSS, and
+                JavaScript are also used a lot to build this app.
+                <br /><br />
+                This is an internal project at my current workplace, so only a
+                screenshot of the homepage is provided here. The project is
+                still being developed and has not been finalized and released
+                yet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills Section -->
+    <section class="skill">
+      <div class="skill-container">
+        <div class="section-title">My Skills</div>
+        <div class="skill-wrapper">
+          <div class="skill-left">
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">Web development</p>
+                <p class="skill-detail">
+                  I have experience using Django to build a web app, including views and templates, managing user input and forms, and putting security measures into place.
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">Front-end development</p>
+                <p class="skill-detail">
+                  I use HTML, CSS, and JavaScript regularly in my work and am comfortable with their basic syntax and structure.
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">Python </p>
+                <p class="skill-detail">
+                  Although I initially learned Python as part of my work with Django, I have since expanded my knowledge and feel confident working with the language at an intermediate level.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="skill-right">
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">Database management</p>
+                <p class="skill-detail">
+                  I have also worked with PostgreSQL and I am new to using DBeaver. I am currently in the process of learning and developing my skills with this data management tool.
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  stroke="2px"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">C programming</p>
+                <p class="skill-detail">
+                  I have a strong command of the C language and have been using it extensively to code structured text in the PLC software.
+                </p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="check-mark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.6rem"
+                  height="1.6rem"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-title-detail">
+                <p class="skill-title">Debugging</p>
+                <p class="skill-detail">
+                  In my current position, I am frequently in charge of fixing bugs in PLC software. The Django project is no different.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact-background">
+      <section class="contact">
+        <div class="contact-container">
+          <div class="section-title">Contact</div>
+          <div class="contact-wrapper">
+            <div class="contact-left">
+              <p class="contact-intro">Are You Ready to Work with Me?
+                Don't be Shy, Say Hello!</p>
+              <p class="my-contact">sakinahshahriman@gmail.com<br>+60 11-39308813</p>
+              <p class="follow-me">Follow me</p>
+              <div class="social-media">
+                <a href="https://www.linkedin.com/in/siti-nursakinah-binti-shahriman-4746b6108/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/akynnnn/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+                <a href="https://www.facebook.com/people/Sakinah-Shahriman/pfbid02zkGuxXcEdw28jf12vDqH66tPaLiP1TNBU8qqzSY5nPJN74UpTqT55P6EiVWJYsonl/#" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <p class="message-me">Drop me a message</p>
+              <form action="https://mailthis.to/sakinahshahriman@mail.com" method="POST">
+                <div class="contact-form">
+                  <input type="text" name="name" id="name" placeholder="Your Name" />
+                  <input type="email" name="_replyto" id="_replyto" placeholder="Your Email" />
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Your Message"
+                  ></textarea>
+                  <a
+                    id="sendEmailButton"
+                    href="#!"
+                    >Contact me</a>                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <span>Copyright</span>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+          </svg></p>
+        </div>
+        <span>2023 Siti Nursakinah Shahriman, All Rights Reserved</span>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

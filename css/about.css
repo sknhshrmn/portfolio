@@ -1,0 +1,33 @@
+/* Change according to page */
+.btn-about {
+  color: #f4b942;
+}
+.about-me {
+  position: unset;
+  display: block;
+  height: 100%;
+}
+.about-me-wrapper {
+  position: unset;
+  transform: unset;
+  padding-bottom: 0;
+}
+.carousel-inner {
+  height: 600px;
+}
+
+/* when mobile @ screen < 600px */
+@media (max-width: 600px) {
+  .about-me {
+    padding-bottom: 50%;
+  }
+  .carousel-inner {
+    height: 1000px;
+  }
+}
+/* when tablet @ screen > 601px and < 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+  .about-me {
+    padding-bottom: 20%;
+  }
+}

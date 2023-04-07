@@ -1,0 +1,30 @@
+/* Change according to page */
+.btn-contact {
+  color: #f4b942;
+}
+.contact {
+  min-height: unset;
+  padding-bottom: 0;
+}
+.contact-container {
+  margin-top: 80px;
+  height: 100%;
+}
+.contact-background {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* when mobile @ screen < 600px */
+@media (max-width: 600px) {
+  .contact {
+    padding-bottom: 35%;
+  }
+}
+
+/* when tablet @ screen > 601px and < 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+  .contact {
+    padding-bottom: 10%;
+  }
+}

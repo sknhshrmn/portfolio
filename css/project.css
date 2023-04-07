@@ -1,0 +1,21 @@
+/* Change according to page */
+.btn-project {
+  color: #f4b942;
+}
+.project-container {
+  margin-top: 80px;
+}
+
+/* when mobile @ screen < 600px */
+@media (max-width: 600px) {
+  .project-container {
+    padding-bottom: 80%;
+  }
+}
+
+/* when tablet @ screen > 601px and < 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+  .project-container {
+    padding-bottom: 20%;
+  }
+}

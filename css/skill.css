@@ -1,0 +1,24 @@
+/* Change according to page */
+.btn-skill {
+  color: #f4b942;
+}
+
+.skill {
+  display: block;
+  margin-top: 80px;
+  min-height: unset;
+}
+
+/* when mobile @ screen < 600px */
+@media (max-width: 600px) {
+  .skill {
+    padding-bottom: 50%;
+  }
+}
+
+/* when tablet @ screen > 601px and < 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+  .skill {
+    padding-bottom: 15%;
+  }
+}
