@@ -324,11 +324,8 @@ li {
   font-size: 1.2rem;
   overflow-wrap: anywhere;
 }
-.project-item:not(.no-link) img:hover {
+.project-item img:hover {
   transform: scale(1.1);
-}
-.no-link img:hover {
-  cursor: unset;
 }
 /* My Skills Section */
 .skill-container {
