@@ -317,6 +317,8 @@ li {
 }
 .project-col-3 {
   width: 50%;
+  /* Fonts */
+  font-family: Roboto;
 }
 .project-title {
   letter-spacing: 0.1em;
